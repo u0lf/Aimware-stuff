@@ -1,0 +1,450 @@
+["italiano"] = {
+        {"Legitbot", "Ragebot", "Visuali", "Altro", "Impostazioni",},
+        {
+            {"Aimbot", "Triggerbot", "Armi", "Altro", "Semirage",},
+            {
+                {"Attiva", "Arma", "Selezione hitbox",},
+                {
+                    {"Abilita", "Abilita l'aimbot legit.",},
+                    {"Tasto per mirare", "Seleziona l'aimbot su quel tasto.",},
+                    {"Tasto per attivare", "Seleziona il tasto per attivare/disattivare l'aimbot.",},
+                },
+                {
+                    {"Fuoco automatico", "Spara senza premere nessun tasto.",},
+                    {"Fire On Press", "Fires when pressing the aimbot key.",},
+                    {"Auto Pistol Interval", "Interval between shots for automatic mode.",},
+                },
+                {
+                    {[2] = "Ordine delle hitbox che l'aimbot sceglierà."},
+                    {[5] = true, "Velocità cambio hitbox", "La velocità con la quale l'aimbot cambierà hitbox.",},
+                    {[5] = true, "Hitbox più vicina al mirino", "Dai la priorità all'hitbox più vicina al mirino.",},
+                },
+            },
+            {
+                {"Attiva", "Arma", "Hitbox Scan",},
+                {
+                    {"Attiva", "Attiva il triggerbot.",},
+                    {"Tasto per triggerare", "Attiva il triggerbot su questo tasto.",},
+                    {"Fuoco automatico", "Lascia che il triggerbot spari senza premere nessun tasto.",},
+                },
+                {
+                    {[5] = true, "Ritardo trigger", "Ritarda il colpo dopo il trigger lock.",},
+                    {[5] = true, "Raffica trigger", "Fai sparare il triggerbot dopo il trigger lock.",},
+                    {[5] = true, "Hit Chance", "Chance minima prima che il triggerbot spari.",},
+                    {[5] = true, "Anti-Rinculo", "Annulla il rinculo durante la trigger scan.",},
+                },
+                {
+                    {[2] = "Triggera sulle hitbox selezionate.",},
+                },
+            },
+            {
+                {"Precisione", "Bersaglio", "Mira", "Visibilità",},
+                {
+                    {[5] = true, "Sistema di Controllo del Rinculo", "Countera il rinculo dell'arma.",},
+                    {[5] = true, "Controllo Rinculo Standalone", "Abilita l'scr mentre si mira liberamente.",},
+                    {[5] = true, "Rinculo orizzontale", "Quanto verrà counterato il rinculo orizzontale.",},
+                    {[5] = true, "Rinculo verticale", "Quanto verrà counterato il rinculo verticale.",},
+                },
+                {
+                    {[5] = true, "FOV minimo", "Campo visivo minimo per l'aim lock.",},
+                    {[5] = true, "FOV massimo", "Campo visivo massimo per l'aim lock.",},
+                    {[5] = true, "Ritardo cambio bersaglio", "Il tempo che l'aimbot aspetterà prima di cambiare bersaglio.",},
+                    {[5] = true, "Ritardo del primo colpo", "Tempo prima che l'aimbot spari il primo colpo.",},
+                },
+                {
+                    {[5] = true, "Fattore fluido", "Quanto sarà fluido il movimento dell'aimbot.",},
+                    {[5] = true, "Metodo fluido", "Metodo da usare per la fluidità dell'aimbot.", {"Dinamico", "Statico",},},
+                    {[5] = true, "Fattore casuale", "Casualizza la posizione del bersaglio dell'aimbot.",},
+                    {[5] = true, "Fattore curva", "Quanto non-lineare sarà il movimento dell'aimbot.",},
+                },
+                {
+                    {[5] = true, "Auto Wall", "Spara attraverso muri penetrabili.",},
+                    {[5] = true, "Attraverso la fumogena", "Spara attraverso la granata fumogena.",},
+                },
+
+            },
+            {
+                {"Movimento", "Extra",},
+                {
+                    {"Modifica velocità di cammino", "Abilita la modifica della velocità di cammino.",},
+                    {"Velocità di cammino", "Modifica la velocità di cammino di questa quantità.",},
+                    {"Stop veloce", "Ti fa fermare più velocemente con il counter-strafe.",},
+                },
+                {
+                    {"Tempo backtrack", "Quante posizioni nel passato sono consentite.",},
+                    {"Triggerbot sul coltello.", "Abilita il triggerbot sul coltello.",},
+                },
+            },
+            {
+                {"Aimbot", "Aggiustamento posizione", "Anti-Mira",},
+                {
+                    {"Aimbot silenzioso", "Mira automaticamente in un FOV basso.",},
+                    {"Stop Automatico", "Si ferma quando l'aimbot spara per aumentare la precisione.",},
+                },
+                {
+                    {"Backtrack", "Mira alle vecchie posizioni del nemico",},
+                    {"Resolver", "Aumenta la precisione quando si spara all'Anti-Mira del nemico.",},
+                },
+                {
+                    {"Tipo", "Massimo aumenta l'animazione visibile.", {"Off", "Minimo", "Massimo",},},
+                    {"Direzione", "Modalità per scegliere la direzione", {"Auto", "Manuale",},},
+                    {"Sinistra",},
+                    {"Destra",},
+                    {"Su Mira del Nemico", "Attiva l'Anti-Mira solo quando il nemico ti sta puntando.",},
+                    {"Disabilita sul coltello", "Disabilita l'Anti-Aim quando si sta impugnando un coltello.",},
+                    {"Disabilita sulla granata", "Disabilita l'Anti-Mira quando si sta impugnando una granata.",},
+                },
+            },
+        },
+        {
+            {"Aimbot", "Precisione", "Hitscan", "Anti-Mira",},
+            {
+                {"Abilita", "Automazione", "Bersaglio", "Extra",},
+                {
+                    {"Abilita", "Abilita il rage aimbot.",},
+                    {"Tasto Mira", "Attiva l'aimbot su quel tasto.",},
+                    {"Tasto per Attivare", "Scegli il tasto per attivare/disattivare il rage aimbot.",},
+                },
+                {
+                    {"Pistola Automatica", "Lascia la pistola sparare come un'arma automatica.",},
+                    {"Auto Revolver", "Continua a cockare il revolver per sparare più velocemente.",},
+                    {"Auto Mira", "Mira automaticamente quando si spara.", {"Off", "On - Auto Unzoom", "On - Senza Unzoom",},}, 
+                },
+                {
+                    {"FOV", "FOV massimo nella quale l'aimbot vedrà il bersaglio.",},
+                    {"Aim Lock", "Aumenta la priorità dell'ultimo bersaglio.",},
+                    {"Mira Silenziosa", "Sopprimi il movimento visivo durante l'aimbotting.",},
+                },
+                {
+                    {"Auto-Coltello", "Accoltella automaticamente quando il bersaglio entra nel raggio d'azione.", {"Off", "Knifebot Normale", "Solo Backstab", "Accoltellata veloce",},},
+                },
+            },
+            {
+                {"Arma", "Aggiustamento Posizione", "Movimento",},
+                {
+                    {[5] = true, "Hit Chance", "Chance minima prima che l'aimbot spari.",},
+                    {[5] = true, "Danno Minimo", "Danno minimo richiesto dopo la penetrazione del muro.",},
+                    {[5] = true, "Anti-Rinculo", "Countera il rinculo dell'arma per avere una precisione maggiore.",},
+                },
+                {
+                    {"Backtracking", "Mira alle vecchie posizioni del nemico.",},
+                    {"Resolver", "Aumenta la precisione mentre si spare all'Anti-Mira del nemico.",},
+                },
+                {
+                    {"Auto Stop", "Counter strafe mentre si spara per aumentare la precisione.",},
+                    {"Auto Accovacciamento", "Accovacciti mentre spari per aumentare la precisione.",},
+                    {"Tasto Camminata Lenta", "Rallenta il movimento del giocatore quando si tiene premuto questo tasto.",},
+                    {"Velocità Camminata Lenta", "Quanto il movimento del giocatore verrà rallentato.",},
+                },
+            },
+            {
+                {"Punti Hitbox", "Priorità Hitbox", "Modalità", "Avanzate",},
+                {
+                    {[2] = "Quantità dei punti che l'aimbot scannerà.",},
+                },
+                {
+                    {[2] = "Ordine dei punti per il quale l'aimbot deve andare.",},
+                },
+                {
+                    {[5] = true, "Auto Wall", "Spara attraverso muri penetrabili.",},
+                    {[5] = true, "Ritardo", "Aspetta per uno stato delle hitbox più accurato.",},
+                    {[5] = true, "Mira al corpo se letale", "Mira al corpo se il danno sarebbe letale.",},
+                },
+                {
+                    {"Tempo di Processazione Massimo", "Diminuisci questo valore per avere più FPS.",},
+                },
+            },
+            {
+                {"Direzione di base", "Direzione a sinistra", "Direzione a destra", "Condizioni", "Avanzate",},
+                {
+                    {[6] = true, "Velocità spinbot",},
+                    {[6] = true,"Gradi di Rotazine",},
+                    {[6] = true,"Gradi dell'LBY",},
+                },
+                {
+                    {[6] = true,"Velocità spinbot",},
+                    {[6] = true,"Gradi di rotazione",},
+                    {[6] = true,"Gradi dell'LBY",},
+                },
+                {
+                    {[6] = true,"Velocità spinbot",},
+                    {[6] = true,"Gradi di rotazione",},
+                    {[6] = true,"Gradi dell'LBY",},
+                },
+                {
+                    {"Disabilita all'uso", "Disabilita l'Anti-Mira quando si preme il tasto usa.",},
+                    {"Disabilita sul coltello", "Disabilita l'Anti-Mira quando si impugna un coltello.",},
+                    {"Disabilita sulla granata", "Disabilita l'Anti-Mira quando si impugna una granata.",},
+                    {"Sul Colpo", "Previente l'hit del tuo modello quando spari.", {"Default", "Desync", "Shift",},},
+                },
+                {
+                    {"Auto Direzione", "Abilita l'Anti-Mira a destra/sinistra basata su muri vicini.",},
+                    {"Anti-Allineamento", "Previeni l'allineamento del desync.",},
+                    {"Anti-Resolver", "Rende colpi continui più difficili da colpire.",},
+                    {"Angolo Pitch", "", {"Off", "89°", "180° (Untrusted)",},},
+                    {"Accovacciamento finto", "Ti permette di sparare da accovacciato",},
+                },
+            },          
+        },
+        {
+            {"Overlay", "Locale", "Mondo", "Modelli", "Skins", "Altro",},
+            {
+                {"Compagni", "Nemici", "Armi",},
+                {
+                    {"Scatola", "Disegna una scatola 2D attorno all'enità.", {"Off", "Outlined", "Normale",},},
+                    {"Precisione Scatola", "Fai corrispondere la scatola 2D al modello dell'entità.",},
+                    {"Nome", "Disegna il modello dell'entità.",},
+                    {"Scheletro", "Disegna lo scheletro dell'entità.",},
+                    {"Bagliore", "Effetto del bagliore sul giocatore.", {"Off", "Colore Del Team", "Colore Della Vita",},},
+                    {"Vita", "Configura le opzioni della vita.", [4] = {"Barra", "Numero",},},
+                    {"Armatura", "Configura le opzioni dell'armatura.", [4] = {"Barra", "Numero",},},
+                    {"Arma", "Disegna il nome dell'arma impugnata dal giocatore.", {"Off", "Attiva", "Tutte", "Attiva + Granate",},},
+                    {"Flags", "Mostra l'attività del giocatore", [4] = {"Disinnescando", "Piantando", "Mirando", "Ricaricando", "Flashato", "Ha il disinnescatore", "Ha il C4",},},
+                    {"Soldi", "Disegna quanti soldi ha il giocatore.",},
+                    {"Barrel", "Disegna linee dove il giocatore sta guardando.",},
+                },
+                {
+                    {"Scatola", "Disegna una scatola 2D attorno all'enità.", {"Off", "Outlined", "Normale",},},
+                    {"Precisione Scatola", "Fai corrispondere la scatola 2D al modello dell'entità.",},
+                    {"Nome", "Disegna il modello dell'entità.",},
+                    {"Scheletro", "Disegna lo scheletro dell'entità.",},
+                    {"Bagliore", "Effetto del bagliore sul giocatore.", {"Off", "Colore Del Team", "Colore Della Vita",},},
+                    {"Vita", "Configura le opzioni della vita.", [4] = {"Barra", "Numero",},},
+                    {"Armatura", "Configura le opzioni dell'armatura.", [4] = {"Barra", "Numero",},},
+                    {"Arma", "Disegna il nome dell'arma impugnata dal giocatore.", {"Off", "Attiva", "Tutte", "Attiva + Granate",},},
+                    {"Flags", "Mostra l'attività del giocatore", [4] = {"Disinnescando", "Piantando", "Mirando", "Ricaricando", "Flashato", "Ha il disinnescatore", "Ha il C4",},},
+                    {"Soldi", "Disegna quanti soldi ha il giocatore.",},
+                    {"Barrel", "Disegna linee dove il giocatore sta guardando.",},
+                },
+                {
+                    {"Scatola", "Disegna una scatola 2D attorno all'enità.", {"Off", "Outlined", "Normale",},},
+                    {"Precisione Scatola", "Fai corrispondere la scatola 2D al modello dell'entità.",},
+                    {"Nome", "Disegna il modello dell'entità.",},
+                    {"Munizioni", "Munizioni rimaste nell'arma.",},
+                    {"Timer C4", "Tempo prima dell'esplosione del C4.",},
+                    {"Oggetti Danger Zone", "Vari oggetti da danger zone.",},
+                    {"Torretta Danger Zone", "Torretta da danger zone.",},
+                },
+            },
+            {
+                {"Camera", "Aiutante",},
+                {
+                    {"Tasto Terza Persona", "Attiva la terza persona con questo tasto.",},
+                    {"Distanza Terza Persona", "Distanza dalla camera.",},
+                    {"Modello Fantasma Fluido", "Corrispondi la posizione del modello finto con quello reale.",},
+                },
+                {
+                    {"Danno Wallbang", "Mostra lo spazio penetrabile dei muri.",},
+                    {"Fuori Visuale", "Mostra indicatori dei nemici fuori da campo visivo.",},  
+                },
+            },
+            {
+                {"Extra", "Materiali", "Granata",},
+                {
+                    {"Hitmarkers", "Play a sound when hitting an enemy.",},
+                    {"Sounds", "Display audible sounds on screen.",},
+                },
+                {
+                    {"Walls Color",},
+                    {"Static Props Color",},
+                    {"Skybox", "Change how the sky looks.",},
+                },
+                {
+                    {"Inferno", "Draw molotov covered inerno.", [4] = {"Local", "Friendly", "Enemy",},},
+                    {"Grenade Tracer", "Visualize predicted grenade trajectory.", [4] = {"Local", "Friendly", "Enemy",},},
+                },
+            },
+            {
+                {"Compagni", "Nemici", "Locale", "Fantasma", "Backtrack", "Arma",},
+                {
+                    {"Invisibile", "Materiale occultato dai muri.", {"Off", "Piatto", "Colore", "Metallico", "Bagliore",},},
+                    {"Visibile", "Materiale visibile.", {"Off", "Piatto", "Colore", "Metallico", "Bagliore", "Texturato", "Invisibile",},},
+                    {"Overlay", "Applica ai materiali precedenti.", {"Off", "Cavi",},},
+                },
+                {
+                    {"Invisibile", "Materiale occultato dai muri.", {"Off", "Piatto", "Colore", "Metallico", "Bagliore",},},
+                    {"Visibile", "Materiale visibile.", {"Off", "Piatto", "Colore", "Metallico", "Bagliore", "Texturato", "Invisibile",},},
+                    {"Overlay", "Applica ai materiali precedenti.", {"Off", "Cavi",},},
+                },
+                {
+                    {"Invisibile", "Materiale occultato dai muri.", {"Off", "Piatto", "Colore", "Metallico", "Bagliore",},},
+                    {"Visibile", "Materiale visibile.", {"Off", "Piatto", "Colore", "Metallico", "Bagliore", "Texturato", "Invisibile",},},
+                    {"Overlay", "Applica ai materiali precedenti.", {"Off", "Cavi",},},
+                },
+                {
+                    {"Invisibile", "Materiale occultato dai muri.", {"Off", "Piatto", "Colore", "Metallico", "Bagliore",},},
+                    {"Visibile", "Materiale visibile.", {"Off", "Piatto", "Colore", "Metallico", "Bagliore", "Texturato", "Invisibile",},},
+                    {"Overlay", "Applica ai materiali precedenti.", {"Off", "Cavi",},},
+                },
+                {
+                    {"Invisibile", "Materiale occultato dai muri.", {"Off", "Piatto", "Colore", "Metallico", "Bagliore",},},
+                    {"Visibile", "Materiale visibile.", {"Off", "Piatto", "Colore", "Metallico", "Bagliore", "Texturato", "Invisibile",},},
+                    {"Overlay", "Applica ai materiali precedenti.", {"Off", "Cavi",},},
+                },
+                {
+                    {"Invisibile", "Materiale occultato dai muri.", {"Off", "Piatto", "Colore", "Metallico", "Bagliore",},},
+                    {"Visibile", "Materiale visibile.", {"Off", "Piatto", "Colore", "Metallico", "Bagliore", "Texturato", "Invisibile",},},
+                    {"Overlay", "Applica ai materiali precedenti.", {"Off", "Cavi",},},
+                },
+            },
+            {
+                {"Cambia oggetti visibili",},
+                {
+                    {"Oggetto", "Seleziona arma o modello.",},
+                    {"Kit di Pittura", "Seleziona la skin del modello",},
+                    {"Qualità", "Qualità della texture dell'oggetto.",},
+                    {"Seme", "Seme della generazione della texture.",},
+                    {"StatTrak", "Contatore delle uccisioni dell'arma.",},
+                    {"Nome", "Nome personalizzato dell'oggeto.",},
+                    {"Aggiungi",},
+                    {"Rimuovi",},
+                },
+            },
+            {
+                {"Extra", "Performance", "Effetti",},
+                {
+                    {"Radar", "Mostra un radar personalizzato.",},
+                    {"Raggio del Radar", "Scegli il raggio del radar.",},
+                    {"Mirino", "Mostra un mirino personalizzato.",},
+                    {"Rinculo Mirino", "Disegna il punto dove andranno i colpi.", {"Off", "Linea", "Sfumatura",},},
+                    {"Anti-OBS", "Nascondi le visuali dal registratore di schermo.",},
+                    {"Anti-Screenshot", "nascondi le visuali dalle screenshot.",},
+                    {"Mantieni il Killfeed", "Mantiene il Killfeed.",},
+                },
+                {
+                    {"Nessun render per i compagni",},
+                    {"Nessun render per i nemici",},
+                    {"Nessun render per le armi",},
+                    {"Nessun render per i ragdoll",},
+                    {"Disabilita i modelli lontani",},
+                },
+                {
+                    {"Rimuovi flash",},
+                    {"Rimuovi fumogena",},
+                    {"Rimuovi rinculo",},
+                    {"Rimuovi mirino",},
+                    {"Rimuovi overlay del mirino",},
+                    {"Rimuovi cielo",},
+                    {"Rimuovi nebbia",},
+                    {"Rimuovi post processing",},
+                },
+            },
+        },
+        {
+            {"Generale", "Movimento", "Miglioramento",},
+            {
+                {"Extra", "Logs", "Restrizioni", "Bypass", "Server",},
+                {
+                    {"Mostra spettatori", "Mostra chi ti sta spettando.",},
+                    {"Mostra i Rank", "Mostra i rank dei giocatori.",},
+                    {"Auto-Accetta il Match", "Accetta automaticamente il match.",},
+                },
+                {
+                    {"Log dei Danni", "Logga il danno fatto ai nemici.",},
+                    {"Log degli Acquisti", "Logga gli acquisti del team nemico.",},
+                    {"Log nella Console", "Logga nella Console i messaggi sullo schermo.",},
+                },
+                {
+                    {"Anti-Untrusted", "Restringi varie funzione sui server Valve.",},
+                },
+                {
+                    {"Bypass sv_pure", "Consenti modelli e skin personalizzate dalla directory di csgo.",},
+                    {"Bypass sv_cheats", "Bypassa i convar protetti.",},
+                    {"Sblocca Achievement Steam",},
+                    {"Mostra ConVars nascosti",},
+                },
+                {
+                    {"sv_maxunlag", "Configura il fattore massimo di backtracking del server.",},
+                    {"sv_maxusrcmdprocessticks", "Modifica il fattore lag massimo del server.",},
+                },
+            },
+            {
+                {"Salto", "Altro", "Strafe",},
+                {
+                    {"Auto Salto", "Seleziona la modalità del salto per l'auto bunnyhop.", {"Off", "Perfetto", "Legit",},},
+                    {"Salto al Bordo", "Salta subito prima di cadere da una sporgenza.",},
+                    {"Duck Jump", "Raggiungi posti più alti accovacciandoti in salto.",},
+                    {"Auto Jump-Bug", "Nessun danno da caduta dopo essere caduti da una certa altezza.",},
+                },
+                {
+                    {"Crouch Veloce", "Exploita il codice di movimento per muoversi più velocemente.",},
+                    {"Slide Walk", "Glitcha l'animazione per far sembrare che si pattini."},
+                },
+                {
+                    {"Abilta", "Abilita l'auto strafe per muoversi più velocemente in aria.",},
+                    {"Strafe in Aria", "Aumenta la velocità in avanti mentre si salta.",},
+                    {"Modalità di Strafe", "Seleziona lo stile per l'autostrafing.", {"Silenzioso", "Normale", "Laterale", "Solo-W", "Mouse",},},
+                    {"Circle Strafe", "Muoviti in cerchi mentre si preme questo tasto.",},
+                    {"Snake Strafe", "Muoviti come un serpente mentre si preme questo tasto.",},
+                    {"Velocità di Retrack", "Muoviti in direzione dei tasti premuti.",},
+                    {"Movimento-WASD", "Muoviti in direzione dei tasti premuti.",},
+                },
+            },
+            {
+                {"Lag Finto", "Latenza Finta", "Apparenza",},
+                {
+                    {"Abilita", "Abilita l'effetto lag.",},
+                    {"Su tasto", "Attiva il lag quando si preme questo tasto.",},
+                    {"Tipo", 'Tipo o "pattern" del lag.', {"Normale", "Adattivo", "Casuale", "Attiva e Disattiva",},},
+                    {"Fattore", "Quanti comandi saranno cambiati.",},
+                    {"Abilita sul Peek", "Lagga il tuo modello dietro al muro prima di peekare.",},
+                    {"Condizioni", "Configura opzioni del fakelag.", [4] = {"Da fermo", "In aria", "Per terra",},},
+                },
+                {
+                    {"Abilita", "Abilita il modificatore della latenzaw.",},
+                    {"Sul Tasto", "Aumenta la latenza solo quando si preme questo tasto.",},
+                    {"Quantità", "Latenza assoluta da raggiungere.",},
+                },
+                {
+                    {"Ruba Nome", "Ruba il nome degli altri giocatori, limitato a 5 volte.",},
+                    {"Nome Invisibile", "Rende il tuo nome invisibile",},
+                    {"Chat Spam", "Pubblicizza AIMWARE in chat.",},
+                    {"Cambia Clantag", "Mette AIMWARE come clantag.",},
+                },
+            },
+        },
+        {
+            {"Configurazioni", "Lua Scripts", "Avanzate",},
+            {
+                {"Gestisci configurazioni",},
+                {
+                    {"Nome", "Crea o rinomina una configurazione.",},
+                    {"Crea",},
+                    {"Rinomina",},
+                    {"Carica",},
+                    {"Salva",},
+                    {"Resetta",},
+                    {"Elimina",},
+                    {"Esporta Negli Appunti",},
+                    {"Importa Dagli Appunti",},
+                    {"Imposta Come Principale",},
+                    {"Aggiorna Lista",},
+                },
+            },
+            {
+                {"Gestisci script",},
+                {
+                    {"Nome", "Crea o rinomina una configurazione.",},
+                    {"Crea",},
+                    {"Rinomina",},
+                    {"Modifica (BETA)",},
+                    {"Carica",},
+                    {"Rimuovi",},
+                    {"Resetta Stato Lua",},
+                    {"Cancella",},
+                    {"Metti Come Autorun",},
+                    {"Aggiorna Lista",},
+                },
+            },
+            {
+                {"Gestisci impostazioni avanzate",},
+                {
+                    {"Tasto Menu", "Tasto per aprire il menu principale.",},
+                    {"Tasto Console", "Console per una maggiore personalizzazione.",},
+                    {"Scala Dpi", "Scala la grandezza dell'UI di questo valore.",},
+                    {"Apri Cartella Impostazioni",},
+                    {"Linguaggio Menu",},
+                },
+            },
+        },
+    },
